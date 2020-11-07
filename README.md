@@ -1,20 +1,22 @@
-ol {
-  background: #ff9999;
-  padding: 20px;
-}
-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
 ul {
-  background: #3399ff;
-  padding: 20px;
+  list-style: square inside url("sqpurple.gif");
 }
+</style>
+</head>
+<body>
 
-ol li {
-  background: #ffe5e5;
-  padding: 5px;
-  margin-left: 35px;
-}
+<h2>CSS Lists</h2>
+<p>The list-style property is a shorthand property, which is used to set all the list properties in one declaration.</p>
 
-ul li {
-  background: #cce5ff;
-  margin: 5px;
-}
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
+
+</body>
+</html>
